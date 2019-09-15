@@ -1,7 +1,7 @@
 # Alejandra Patricia Sanchez Sanchez 
 # Computadoras y Programacion grupo 1157
 ## Semestre 2020-1
-![Logo FES Aragon](fesa,png)
+![Logo FES Aragon](fesa.jpg)
 
 Aqui va una **descripcion** del *repositorio*
 - elemento 1
