@@ -1,6 +1,6 @@
-BASE = int (input ("Dame la base de tu triangulo "))
-ALTU = int (input ("Dame la altura de tu triangulo "))
-SUP = (BASE * ALTU) / 2 
-PER = BASE * 3
-print (f"La superficie de tu triangulo es { SUP }")
-print (f"El perimetro de tu tringulo es { PER }")
+BASE = int (input ("Dame la base de tu rectangulo "))
+ALTU = int (input ("Dame la altura de tu rectangulo "))
+SUP = BASE * ALTU
+PER = 2 * (BASE + ALTU)
+print (f"La superficie de tu rectangulo es { SUP }")
+print (f"El perimetro de tu rectangulo es { PER }")
