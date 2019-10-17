@@ -14,10 +14,16 @@ elif CARR == "computacion":
             print (f"{MAT} de la carrera {CARR} estas aceptado")
     else: 
         print ("No seleccionado") 
+<<<<<<< HEAD
 elif CARR == "contabilidad": 
     if SEM > 5:
         if PROM > 8.5:
             print (f"{MAT} de la carrera {CARR} estas aceptado") 
+=======
+else CARR == contabilidad : 
+    if (SEM > 5) (PROM > 8.5):
+        print (f"{MAT} de la carrera {CARR} estas aceptado") 
+>>>>>>> 1934788e2cb96195a6a958cc5f7b20bd8e422bff
     else: 
         print ("No seleccionado") 
 elif CARR == "administracion":
