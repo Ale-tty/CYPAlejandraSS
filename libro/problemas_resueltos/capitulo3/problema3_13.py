@@ -3,6 +3,7 @@ ARNO = 0
 MERSU = 50000
 ARCE = 0
 MES = 0
+I = 1
 for i in range (1, 13, 1):
     print (f"Mes {i}:")
     RNO = float (input("Promedio de lluvias del mes Zona Norte"))
@@ -15,8 +16,11 @@ for i in range (1, 13, 1):
     if RSU < MERSU:
         MERSU = RSU
         MES = i
+        i+= 1
+    else:
+        i+= 1
 PRORCE = ARCE / 12
-print (f"Promedio region centro:{PROCE}")
+print (f"Promedio region centro:{PRORCE}")
 print (f"Mes con menor lluvia en reg. sur:{MES}")
 print (f"Registro del mes con mayor lluvia es:{MERSU}")
 
